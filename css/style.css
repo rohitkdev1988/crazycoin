@@ -1,0 +1,1153 @@
+*{margin:0;padding:0;text-decoration:none}
+body{background:#555; font-family: 'Poppins', sans-serif !important;}
+.Montserrat{ font-family: 'Montserrat', sans-serif !important;}
+header{position:relative;width:100%;background: #042c47;}
+.logo{position:relative;z-index:123;padding:10px;font:18px verdana;color:#6DDB07;float:left;width:15%}
+.logo a{color:#6DDB07;}
+nav{position:relative;width:1280px;margin:0 auto;}
+.whytitle {
+    position: relative;
+    color: #104f8e;
+    font-size: 20px;
+    padding-left: 25px;
+}
+#cssmenu li:hover > ul > li a::after, #cssmenu li:hover > ul > li a::before {
+    content: none;
+}
+
+.whytitle::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    top: 0;
+    width: 20px;
+    background: #104f8e;
+    border-radius: 50%;
+	border:#042c47 1px solid;
+	left:0px; font-family:
+}
+.innerradio p {
+    color: #104f8e;
+    padding-left: 25px;
+    font-size: 16px;
+    line-height: 23px;
+    margin-top: 10px;
+}
+#cssmenu ul li.active {
+    position: relative;
+}
+
+#cssmenu ul li.active::after {
+    content: "";
+    position: absolute;
+    top: auto;
+    left: 0;
+    right: 0;
+    width: 90px;
+    background: #e7b022;
+    height: 2px;
+    margin: auto;
+    bottom: 3px;
+}
+#cssmenu > ul > li a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 3px;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #ffba06;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+#cssmenu > ul > li a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+ #cssmenu > ul > li:hover ::after {/* width: 100%; *//* left: 0; */} 
+
+
+i.fa.fa-caret-down {color: #ffba00;}
+#cssmenu,#cssmenu ul,#cssmenu ul li,#cssmenu ul li a,#cssmenu #head-mobile{border:0;list-style:none;line-height:1;display:block;position:relative;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+#cssmenu:after,#cssmenu > ul:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}
+#cssmenu #head-mobile{display:none}
+#cssmenu{background:#042c47;height: auto;}
+#cssmenu > ul > li{float:left}
+#cssmenu > ul > li > a{padding: 27px 45px;font-size:18px;letter-spacing:1px;text-decoration:none;color:#ddd;font-weight:400;font-family: 'Poppins', sans-serif;}
+#cssmenu > ul > li:hover > a,#cssmenu ul li.active a{color:#fff;}
+#cssmenu > ul > li:hover,#cssmenu ul li.active:hover,#cssmenu ul li.active,#cssmenu ul li.has-sub.active:hover{-webkit-transition:background .3s ease;-ms-transition:background .3s ease;transition:background .3s ease;}
+#cssmenu > ul > li.has-sub > a{padding-right:30px}
+#cssmenu > ul > li.has-sub > a:before{position:absolute;top:19px;right:14px;display:block;width:2px;height:8px;background:#ddd;/* content:''; */-webkit-transition:all .25s ease;-ms-transition:all .25s ease;transition:all .25s ease;}
+#cssmenu > ul > li.has-sub:hover > a:before{top:23px;height:0}
+#cssmenu ul ul{position:absolute;left:-9999px;z-index: 999;background: #f2f0f0;border-radius: 10px;border: #104f8e 1px solid;overflow: hidden;padding: 10px 20px;top: auto;}
+#cssmenu ul ul li{height:0;-webkit-transition:all .25s ease;-ms-transition:all .25s ease;background: #f2f0f0;transition:all .25s ease;border-bottom: #d1cdcd 1px solid;}
+#cssmenu ul ul li:hover{}
+#cssmenu li:hover > ul{left:auto}
+#cssmenu li:hover > ul > li{height:35px}
+#cssmenu ul ul ul{margin-left:100%;top:0}
+#cssmenu ul ul li a{border-bottom:1px solid rgba(150,150,150,0.15);padding:11px 15px;width:170px;font-size: 15px;text-decoration:none;color: #042c47 !important;font-weight:400;font-weight: 500;}
+
+#cssmenu ul ul li:hover > a,#cssmenu ul ul li a:hover{color:#fff; }
+#cssmenu ul ul li:last-child {border: 0px;}
+#cssmenu ul ul li.has-sub > a:after{position:absolute;top:16px;right:11px;width:8px;height:2px;display:block;background:#ddd;content:''}
+#cssmenu ul ul li.has-sub > a:before{position:absolute;top:13px;right:14px;display:block;width:2px;height:8px;background:#ddd;content:'';-webkit-transition:all .25s ease;-ms-transition:all .25s ease;transition:all .25s ease}
+#cssmenu ul ul > li.has-sub:hover > a:before{top:17px;height:0}
+#cssmenu ul ul li.has-sub:hover,#cssmenu ul li.has-sub ul li.has-sub ul li:hover{background:#363636;}
+#cssmenu ul ul ul li.active a{border-left:1px solid #333}
+#cssmenu > ul > li.has-sub > ul > li.active > a,#cssmenu > ul ul > li.has-sub > ul > li.active> a{border-top:1px solid #333}
+.rectangle, .rectangle12{background:#f2f0f0;padding: 30px 0px 120px 0px;}
+.rectangle12{ background:#d1cdcd}
+.maincontainer, .maincontainer1{width:1280px;margin:auto;display:block;height:auto;/* overflow:hidden; */padding:20px 0px;}
+.rectangle12{ padding:30px 0px 0 0 }
+.tabledata{width:100%;/* background:#f00; */display: flex;justify-content: center;align-content: center;padding: 40px 0px;}
+.centeralign{display: flex;vertical-align:middle;justify-content: center;align-content: center;align-items: center;width: 100%;}
+.half_two {width: 48%;margin: 0px 1%;text-align: center;}
+.half_two h2 {font-size: 40px; font-weight:600; color:#042c47;}
+.half_two h2 span{color:#e7b022; font-weight:800}
+.half_two p{ font-size: 12px;  font-weight: normal;  font-style: normal;  font-stretch: normal;  line-height: normal;  letter-spacing: 0.1px;  color: #104f8e;  width: 266px;  margin: 20px auto;}
+.Rectangle {width: 119px;height: 40px;border-radius: 20px;border: solid 1px #e7b022;display: block;margin: auto;line-height: 40px; color:#104f8e}
+.bluebox, .blueboxbuybitcoin {width:1020px;margin:auto;background:#042c47;padding:20px 0px;border-radius:40px;margin-top: -200px;display: block;justify-content: center;color: #fff;font-weight: 400; height:auto; overflow:hidden; margin-bottom:40px}
+.graybg{background:#d1cdcd;height:auto;/* overflow:hidden; */padding:30px 0px;}
+.bluebox h3, .blueboxbuybitcoin h3 {font-weight: 400;font-size: 30px; text-align:center}
+.bluebox h3  span, .blueboxbuybitcoin h3 span{color: #e7b022;text-decoration: underline;}
+.bluebox ul {display: block;clear: both;position: relative;width: 100%;}
+.bluebox ul li {list-style: none;width: 31%;float: left;margin: 1%;font-size: 20px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: 0.1px;text-align: center;color: #f2f0f0;}
+.bluebox ul li img {margin: 30px auto;display: block;transition:all .3s ease-in-out}
+.bluebox ul li img:hover {background: #fff;border-radius: 50%;}
+.whybit{padding: 50px 0px 0px 0px;height:auto;overflow:hidden;background:#f2f0f0;}
+.whybitleft, .whybitright{width: 30%;float:left;height:auto;overflow:hidden;}
+.whybitright{width: 70%;}
+.whybitimg{ margin:10%; width:80%;}
+.whybittest{position:relative;display: block;margin: 20px 0px;clear: both;height: auto;overflow: hidden;}
+.whybittestmainrow{ height:auto; position:relative; padding:20px 0px}
+.whybittestmainrowleft{width: 13%;float:left;}
+.whybittestmainrowleft img{margin:0% auto;border-radius:50%;width: 100%;}
+
+.userprofilename {
+    color: #104f8e;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.user_profile {
+    font-size: 20px;
+    color: #104f8e;
+    font-weight: 600;
+}
+
+.user_profile span {
+    font-weight: 400;
+    color: #042c47;
+}
+.testimonialsbit {
+    border: #979797 1px solid;
+    padding: 10px;
+    margin: 30px 0px;
+    border-radius: 20px;
+    position: relative;
+    border-top-left-radius: 0px;
+}
+
+.testimonialsbit::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #979797;
+    top: -9px;
+    left: -2px;
+}
+.whybittestmainrowright{width: 85%;float:left;margin: 0 1%;}
+.testimonialsbit p {
+    color: #104f8e;
+}
+.whybitimg img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+.showmobilebitcoin{ width:100px; margin:20px auto; clear:both; display:none}
+.showmobilebitcoin img{ width:100%}
+.graybg h3{ font-size:30px; color: #042c47; text-align:center; font-weight:600}
+.top {width: 100%;background:  #e7b022;height: 2px;margin:25px 0 0 0;}
+.table, .row {width: 100%;background: #042c47;height: auto;overflow: hidden;padding: 8px 0px 8px 8px;color: #e7b022;text-align: left;font-size:18px;}
+.row{ background:none; border-bottom:#042c47 1px solid; color:#042c47; line-height:48px}
+.rordata {width: 25%;float: left;}
+.rordata:nth-child(1) {width: 40%;}
+.rordata:nth-child(2) {width: 15%;}
+.rordata:nth-child(3) {width: 25%;}
+.rordata:nth-child(4) {width: 15%;}
+button.bluebtn, .loginbutton, .dashboardbutton, .editbtn, .deletebtn {width: 100px;background: #104f8e;color: #fff;transition:all .3s ease-in;font-size: 14px;padding: 8px 0px;border: 0px;border-radius: 20px;margin: 5px 0px;font-family: 'Poppins', sans-serif;font-weight: 400;border: #042c47 1px solid;cursor: pointer;line-height: 23px;}
+button.bluebtn:hover,  .dashboardbutton:hover, .editbtn:hover, .deletebtn:hover{ background: transparent; color: #104f8e;}
+.loginbutton:hover{ color:#fff; border:#fff 1px solid}
+.maincontainer1 h2{ font-size:40px; color:#042c47; font-weight:600; text-align:center}
+.maincontainer1 h2 span{ color:#e7b022; font-weight:700}
+.checkcontainer {display: block;position: relative;padding-left: 35px;margin-bottom:12px;cursor: pointer;font-size: 18px;-webkit-user-select: none; /* Chrome, Opera, Safari */-moz-user-select: none; /* Firefox 2+ */-ms-user-select: none; /* IE 10+ */user-select: none; /* Standard syntax */color: #104f8e;}
+.checkcontainer input {position: absolute;opacity: 0;cursor: pointer;}
+.checkmark {position: absolute;top: 0;left: 0;height: 25px;width: 25px;background-color: #eee;}
+.checkcontainer:hover input ~ .checkmark {background-color: #ccc;}
+.checkcontainer input:checked ~ .checkmark {background-color: #2196F3;}
+.checkmark:after {    content: "";    position: absolute;    display: none;}
+.checkcontainer input:checked ~ .checkmark:after {display: block;}
+.checkcontainer .checkmark:after {left: 10px;top: 6px;width: 7px;height: 12px;border: solid white;border-width: 0 3px 3px 0;-webkit-transform: rotate(45deg);-ms-transform: rotate(45deg);transform: rotate(45deg);}
+.radiobtn{position: absolute;top: 0;left: 0;height: 25px;width: 25px;background-color:#042c47;border-radius: 50%;}
+.checkcontainer:hover input ~ .radiobtn{background-color: #ccc;}
+.checkcontainer input:checked ~ .radiobtn{background-color: #042c47;}
+.radiobtn:after {content: "";position: absolute;display: none;}
+.checkcontainer input:checked ~ .radiobtn:after {display: block;}
+.checkcontainer .radiobtn:after {top: 9px;left: 9px;width: 8px;height: 8px;border-radius: 50%;background: #e7b022;}
+.half_one {width: 48%;margin: 30px 1%;text-align:left; float:left}
+.innerradio{border-radius: 20px;border: #042c47 1px solid;padding: 20px;min-height: 100px;min-height: 130px;}
+.maincontainer1{ height:auto; overflow:hidden}
+.checkcontainer p {font-size: 14px;}
+.footer{ background:#042c47; height:auto; overflow:hidden; padding:20px 0px 0 0}
+.charbar{width:23%;float:left;padding:10px 0px;height:auto;overflow:hidden;position:relative;margin:10px 1%;}
+.charbar p {color: #e7b022;font-size: 12px;padding: 10px;}
+.charbar h2{color:#e7b022;font-size: 18px;font-weight:400;text-align: left;}
+.charbar ul{ margin:0px; padding:0px}
+.charbar ul li{list-style:none;line-height: 24px;}
+.charbar ul li a{ color:#e7b022; font-size:12px}
+.charbar ul li i {height: 20px;width: 20px;background: #f00;text-align: center;line-height: 20px;border-radius: 50%; margin-right:8px}
+.charbar ul li a i{ color:#fff;}
+i.fa.fa-facebook{ background:#3b5999}
+i.fa.fa-twitter {background: #55acee;}
+i.fa.fa-instagram {background: #e4405f;}
+i.fa.fa-reddit {background: #ff5700;}
+.footerbottom{ background:#104f8e; padding:20px 0px}
+.line{ width:50%; height:1px; background:#e7b022; margin:15px auto}
+p.copy {font-size: 12px;text-align: center;color: #fff;letter-spacing: .5px;}
+p.bottontext {font-size: 10px;padding: 10px 20px;color: #e7b022;}
+.half_two img{ width:100%; height:auto}
+#cssmenu > ul {float: right;}
+.bluebox h3 {color: #fff; font-weight:400;}
+.half_two.teen {display: none;}
+
+/*=====================================START LOGIN PAGE HERE====================================*/
+.helf_right, .helf_left{width: 48%;margin:1%;height:auto;/* border:#000 1px solid; */float:left;}
+.formlogin, .formlogin1, .formlogin2{padding:20px;background: #90894d;position: relative;border-top-left-radius: 20px;border-top-right-radius: 20px;}
+.formlogin1{margin-top: -20px;background: #5c7267;}
+.formlogin2{margin-top: -20px;background: #104f8e;border-radius:20px;padding: 20px 25px 40px 25px;height: auto;overflow: hidden;font-family: 'Poppins', sans-serif;}
+.modal-box {display: none;position: absolute;z-index: 1000;width: 98%;background: #e7b022;border-bottom: 1px solid #aaa;border-radius: 4px;box-shadow: 0 3px 9px rgba(0, 0, 0, 0.23);border: 1px solid rgba(0, 0, 0, 0.1);background-clip: padding-box;border-radius: 20px;padding: 30px 0px;}
+.modal-box header, .modal-box .modal-header {padding: 10px 0px;height: auto;display: block;clear: both;position: relative;background: transparent;}
+.modal-box .modal-body {padding: 0px 30px;}
+.modal-overlay {opacity: 0;filter: alpha(opacity=0);position: absolute;top: 0;left: 0;z-index: 900;width: 100%;height: 100%;background: rgba(0, 0, 0, 0.7) !important;}
+a.close {line-height: 1;font-size: 52px;position: absolute;top: -35px;right:4%;text-decoration: none;color: #fff;z-index: 999;}
+a.close:hover {color: #222;-webkit-transition: color 1s ease;-moz-transition: color 1s ease;transition: color 1s ease; text-decoration:none}
+/* The container */
+.container {display: block;position: relative;padding-left: 35px;margin-bottom: 12px;cursor: pointer;font-size: 14px;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;color: #fff;user-select: none;line-height: 26px;letter-spacing: .5px;margin-top: 25px;}
+.container input {position: absolute;opacity: 0;cursor: pointer;height: 0;width: 0;}
+.checkmark {position: absolute;top: 0;left: 0;height: 25px;width: 25px;background-color: #eee;}
+.container:hover input ~ .checkmark { background-color: #ccc;}
+.container input:checked ~ .checkmark {background-color: #e7b022;}
+.checkmark:after {content: "";position: absolute; display: none;}
+.container input:checked ~ .checkmark:after { display: block;}
+.container .checkmark:after {left: 9px;top: 5px;width: 5px;height: 10px;border: solid white;border-width: 0 3px 3px 0;-webkit-transform: rotate(45deg);-ms-transform: rotate(45deg);transform: rotate(45deg);}
+form.login input[type="text"], form.login input[type="email"], form.login input[type="password"],  form.login textarea {width: 94%;padding: 8px;margin: 10px 0px;background: transparent;border: 0px;border-bottom: #537392 1px solid;color:#fff;font-size: 14px;font-family: 'Poppins', sans-serif;}
+form.login input[type="text"]::placeholder, form.login input[type="email"]::placeholder, form.login input[type="password"]::placeholder,  form.login textarea::placeholder  { color:#d1cdcd}
+form.login input[type="text"]:focus, form.login input[type="email"]:focus, form.login input[type="password"]:focus,  form.login textarea:focus { outline:0px}
+.text-center{ text-align:center}
+.whitecolor{ color:#fff;}
+.formlogin2 h2 {margin: 0px;padding: 0px;position: relative;font-weight: 400;}
+.formlogin2 h2::after {content: "";position: absolute;height: 1px;width: 120px;background: #fff;top: auto;left: 0;right: 0;margin: auto;bottom: -10px;}
+.container a {color: #fff;text-decoration: underline;}
+.modal-box {width: 880px;}
+button.signup {width: 120px;margin: auto;display: block;margin-bottom: 35px;}
+.formlogin2 a {color: #fff;position: relative;}
+.pull-left {float: left;}
+.pull-right {float: right;}
+.bluethemecolor{color:#104f8e; }
+.verticalcenter {display: table-cell;vertical-align: middle; padding:0px 25px}
+.helf_left {display: table;position: relative;height: 480px;}
+.helf_left h2 {position: relative;margin-bottom: 30px;margin-top:0px;font-size:40px;color:#042c47;font-weight: 400;}
+.helf_left p{font-size:20px;margin-bottom: 20px;}
+.helf_left img {margin: 20px auto;display: block;  }
+.toplogo{ display:none !important}
+.formlogin2 a::after {content: "";position: absolute;bottom: -10px;top: auto;left: 0px;background: #fff;width: 100%;height: 1px;}
+.container a {font-size: 14px; display: block}
+.loginbutton{background: transparent;border: #e7b022 1px solid;color: #e7b022;margin: 20px auto;display: block;font-family: 'Poppins', sans-serif;width: 160px;border-radius: 40px;}
+.container a::after{ content:""; background: transparent}
+.loginformhere{ min-height: 380px}
+/*=====================================END LOGIN PAGE HERE====================================*/
+/*=====================================START BUY BITCOIN HERE====================================*/
+.buybitcoinheader{height:auto; position: relative; background:#d8d8d8; border-bottom:#979797 1px solid; padding: 20px 0px}
+.buybitcoinbg{ background:#f2f0f0; height: auto; overflow: hidden; padding: 0px 0px 0 0}
+.blueboxbuybitcoin, .sellingbluebox{ margin-top:30px }
+.blueboxbuybitcoin ul {
+    display: flex;
+    width: 100%;
+    margin: 30px 0px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.rordatabuybitcoin {
+    float: left;
+}
+.buybitcointable h2, .folow h2{font-size: 40px;margin: 40px 0px;color: #042c47;display: block;clear: both;}
+.rordatabuybitcoin:nth-child(1), .rordatabuybitcoin:nth-child(2), .rordatabuybitcoin:nth-child(3) {
+    width: 29%; line-height: 23px
+}
+
+.rordatabuybitcoin:nth-child(4) {
+    width: 13%;
+}
+.hidepanel {
+    height: auto;
+    display: none; padding: 10px 60px;
+}
+.block{ display:block}
+.hidepanel h3 {
+    color: #e7b022;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.hidepanel p {
+    line-height: 25px;
+}
+.blueboxbuybitcoin select option {
+    background: #042c47;
+    color: #fff;
+}
+.buybitleft{width: 50%; float: left; padding:0px 0px; }
+.rightsideselect{ width:400px; float: right;  }
+.rightsideselect .label{color: #104f8e;font-size: 14px;font-weight: 600;padding-right: 12px;line-height: 41px;}
+span.downarrow {
+    background: url(../img/down.png);
+    height: 12px;
+    width: 10px;
+    position: absolute;
+    top: 10px;
+    left: auto;
+    right: 5px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 0;
+}
+.text-right{ text-align: right}
+.styled-select {
+    border: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    border-bottom: #042c47 1px solid;
+    color: #042c47;
+  }
+  .styled-select, .styled-select select { width: 100%;}
+  select:focus { outline: none; }
+  .styled-select select {
+    font-family: 'Poppins', sans-serif;
+    height: 34px;
+    padding: 5px 0 5px 5px;
+    background: transparent;
+    border: none;
+    
+    /*hide default down arrow in webkit */
+    -webkit-appearance: none;
+    color: #042c47;
+    font-size: 14px;
+    position: relative;
+    z-index: 9999;
+  }
+  
+  @-moz-document url-prefix(){
+    .styled-select select { width: 110%; }
+  }
+  
+  .fa-sort-desc {
+    position: absolute;
+    top: 0;
+    right: 12px;
+    font-size: 24px;
+  }
+  
+   select::-ms-expand { display: none; } /* hide default down arrow in IE10*/
+  
+  /* hack to fall back in opera */
+  _:-o-prefocus, .selector {
+    .styled-select { background: none; }
+    }
+
+    .clearfix {
+        width: 100%;
+        display: block;
+        clear: both;
+    }
+    .greencolor{ color: #04ba2d; font-weight: 600; font-size: 14px; line-height: 41px}
+.blueboxbuybitcoin ul li {
+    display: flex;
+}
+.rordata {
+    position: relative;
+}
+.statusonline{position: relative;left: -5px;top: 4px;height: 9px;border-radius:50%;width: 9px;border: solid 1px #e7b022;background: #04ba2d;float: left;}
+.dataid {
+    line-height: 14px;
+    font-size: 13px;
+}
+
+.dataid span {
+    font-weight: 600;
+    padding-right: 5px;
+    color: #042c47;
+}
+
+.smallfont {
+    line-height: 20px;
+}
+
+.font10 {
+    font-size: 10px;
+}
+
+.smallfont span {
+    font-weight: 600;
+    padding-right: 5px;
+}
+.themecolor{ color: #042c47}
+.paddingright12{ padding-right: 12px}
+.font-12{ font-size: 12px}
+.blueboxbuybitcoin ul {
+    display: flex;
+    justify-content: center;
+}
+
+.blueboxbuybitcoin ul li {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.blueboxbuybitcoin ul li img {
+    margin: auto;
+    width: 70px;
+    display: block;
+}
+.buybittable{ display:table; width:100%; height: 100px; position: relative;}
+.buybitcoinvertical{ display: table-cell; vertical-align: middle}
+.buybittable h1{ color: #042c47; font-size: 40px}
+.blueboxbuybitcoin .styled-select {
+    width: 280px;
+    margin: 50px auto 40px;
+    color: #d1cdcd;
+    border-bottom: #979797 1px solid;
+}
+
+.blueboxbuybitcoin select {
+    color: #d1cdcd;
+}
+.hiddenmobile {display: block;clear: both;position: relative;}
+.openinmobiledevice {
+    height: auto;
+    width: 100%;
+    border: solid 1px #979797;
+    background-color: #d8d8d8;
+    padding: 0px;
+    overflow: hidden;
+    display:none;
+}
+
+.mobileleftheading {
+    height: auto;
+    width: 25%;
+    float: left;
+}
+
+.mobileleftheading ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.mobileleftheading ul li {
+    list-style: none;
+    padding: 21.5px 3px;
+    background: #042c47;
+    color: #e7b022;
+    position: relative;
+    font-size: 11px;
+}
+.mobileright {
+    float: left;
+    width: 75%;
+}
+
+.mobileright .rordatabuybitcoin {
+    width: 100%;
+    padding-left: 16px;
+    font-size: 12px;
+    border-bottom: #fff 1px solid;
+    height: 49px;
+    padding: 5px 10px;
+}
+
+.mobileright .dataid {
+    font-size: 14px !important;
+}
+
+.mobileright .smallfont.font10 {
+    font-size: 10px !important;
+}
+.mobileright .rordatabuybitcoin button.bluebtn {
+    width: 120px !important;
+    margin: 16px 0px !important;
+}
+.mobileleftheading ul li::after {
+    content: "";
+    position: absolute;
+    left: 10%;
+    height: 1px;
+    background: #979797;
+    width: 90%;
+    top: auto;
+    bottom: 0px;
+}
+.pagination {
+    display: block;
+    clear: both;
+    position: relative;
+    margin: 20px 0px;
+    height: auto;
+    overflow: hidden;
+}
+
+.pagination ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination ul li {
+    width: 100%;
+    list-style: none;
+    padding: 10px 3px;
+    font-size: 13px;
+    font-weight: 600; text-align: center
+}
+
+.pagination ul li a {
+    color: #042c47;
+    font-size: 13px;
+}
+.pagination ul li a.active{color:#e7a339}
+/*=====================================END BUY BITCOIN HERE====================================*/
+
+/*=====================================START DASHBOARD PAGE HERE====================================*/
+.dashboradleft, .dashboradright{width:40%;float: left;padding: 20px 0px;/* background: #f00 */}
+.dashboradright{width:60%}
+.dashbordintrest {
+    margin: 10px;
+    border: #042c47 1px solid;
+    border-radius: 20px;
+    padding: 20px;
+    height: auto;
+    overflow: hidden;
+    min-height: 272px;
+}
+.dashboardbutton{background:#104f8e;border: #042c47 1px solid;width: 160px;margin: 30px 10px 0px 10px;text-align: center;}
+.dashbordintrest ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.dashbordintrest ul li {
+    list-style: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #042c47;
+}
+
+.dashbordintrest ul li span {
+    float: right;
+    font-weight: 400;
+}
+
+.dashbordintrest h3 {
+    text-align: center;
+    position: relative; font-weight: 400; margin-bottom: 20px;
+}
+.dashbordintrest h3:after {
+    content: "";
+    position: absolute;
+    top: auto;
+    bottom: -10px;
+    width: 230px;
+    height: 1px;
+    background: #042c47;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.yellowtext{color: #e7b022 !important;}
+.greentext{color:#04ba2d !important}
+.redtext{color: #d33c46 !important;}
+.bluetext{color:#104e8d !important}
+.twoparttable{
+    width: 48%; float: left; margin: 1%;
+}
+.inntabledashboard{height: auto;border:#d8d8d8;width: 48%;float: left;margin: 1%;}
+.buytradeslist {
+    width: 240px;
+    margin: auto;
+}
+
+.buytradeslist ul li {
+    background: #d8d8d8;
+    padding: 0px 12px;
+    border-bottom: #fff 1px solid;
+    color:  #042c47;
+}
+.flexitem {
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+}
+.dashboradright h2{ color: #042c47}
+
+
+.tabs, .tabsnew {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    height: auto;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.tabs ul, .tabsnew ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.tabs ul li, .tabsnew ul li {
+    float: left;
+    width: 49%;
+    margin: 0px;
+    list-style: none;
+}
+
+ .activetabs {
+    border-top: solid 1px #042c47;
+    width: 100%;
+    display: block;
+    border-top-right-radius: 20px;
+    border-right: solid 1px #042c47;
+    color: #042c47 !important;
+    border-bottom: 0px !important
+}
+
+.tabs ul li a, .tabsnew ul li a {
+    padding: 10px 0px;
+    font-size: 28px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.tabs ul li a, .tabsnew ul li a {border-bottom: solid 1px #042c47;  display: block; width:100%; color: #93a2ac}
+.tabs ul li:nth-child(2) a, .tabsnew ul li:nth-child(2) a {
+    padding-left: 20px;
+}
+.one:nth-child(even) {
+    background: #fff;
+}
+
+.one:nth-child(odd) {
+    background: #d8d8d8;
+}
+
+.one {
+    width: 100% !important;
+    display: block;
+}
+
+.one:nth-child(even) .row {
+    background: #fff;
+}
+
+.one:nth-child(odd) .row {
+    background: #d8d8d8;
+}
+.showseciond, .offerseciond{ display:none}
+.blocktab{ display: block}
+.displaynone{display:none}
+.dashboardrow:nth-child(1), .dashboardrow:nth-child(6) {
+    width: 10%;
+    float: left;
+}
+
+.dashboardrow:nth-child(2), .dashboardrow:nth-child(3), .dashboardrow:nth-child(4), .dashboardrow:nth-child(5) {
+    width: 20%;
+    float: left;
+}
+.dashboardrow{ line-height: 23px}
+.editbtn, .deletebtn{ padding:5px 0px !important; margin:2px 0px !important}
+.deletebtn{border: solid 1px #042c47 !important;background-color: #042c47 !important;}
+.deletebtn:hover{ background: transparent !important; color:#042c47 !important}
+.whitebackgroundmobileshow{ display:none}
+.whitebackgroundmobileshow h2 {
+    position: relative;
+    margin: 0px;
+    padding: 10px 0px;
+    text-align: center;
+    display: block;
+    clear: both;
+    color: #042c47;
+}
+
+.whitebackgroundmobileshow h2::after {
+    content: "";
+    position: absolute;
+    top: auto;
+    bottom: 0px;
+    height: 1px;
+    width: 70%;
+    background: #042c47;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+/*=====================================END DASHBOARD PAGE HERE====================================*/
+/*======================================HELP START BITCOIN==========================*/
+.folow{ border: solid 1px #979797; background-color: #d8d8d8; padding:40px 0px; height:auto; overflow:hidden}
+.thirdpart {width: 33.33%;padding: 20px 0px;float: left;}
+.step{padding:10px;height:auto;margin:20px 0px;color:#104f8e;min-height:330px;}
+.imgcircle{ width:160px; display:block; text-align:center;  margin:auto; position:relative}
+.imgcircle img{ width:90%; margin:auto; transition:all .3s ease-in}
+.imgcircle img:hover{ background:#e7b022; border-radius:50%}
+.imgcircle::after {content: "";position: absolute;top: auto;bottom: -20px;width: 160px;height: 2px;background: #042c47;left: 0;right: 0;margin: auto;display: block;}
+.step h2 {margin: 30px 0px 5px 0;display: block;clear: both;font-size: 25px; color:#104f8e; font-weight:400; padding:5px 0px; font-size:18px}
+.step p {padding: 0px 20px; font-size:13px}
+.Question{background:#f2f0f0; padding:50px 0px; height:auto; overflow:hidden; display:block; clear:both; position:relative}
+.Question h2{ color:#104f8e; margin-bottom:20px}
+.Question p{color:#104f8e;}
+.Question p span a{ display:block;color:#104f8e;}
+a.Rectangle.stepbtn:hover {background: #104f8e;color: #fff;border: #104f8e 1px solid;transition:all .3s ease-in}
+a.Rectangle.stepbtn{ width:180px}
+.youtube{ background:#e7b022; min-height:320px; position:relative}
+.youtube h2{ position:relative; padding-top:120px; font-size:35px; color:#fff; font-weight:800}
+.rectangle.mobilereact {
+    padding-bottom: 40px;
+}
+/*======================================HELP START BITCOIN==========================*/
+
+
+/*=====================================START SELLING BITCOIN HERE====================================*/
+.sellingleft, .sellingright{ width:50%; float:left; padding:20px 0px;}
+.blueboxbuybitcoin.sellingbluebox .styled-select {
+    width: 100%;
+}
+.formseprator {
+    padding: 0px 0px;
+    position:relative;
+    display: block;
+    width: 100%;
+    clear: both;
+}
+.formseprator span.textintput {position: absolute;right: 10px;top: 10px;}
+.centeraligndivsellingbit {
+    width: 80%;
+    margin: auto;
+}
+textarea.additionalinfo {
+    height: 193px;
+}
+.sellingbittable{ display:block}
+.sellingbitmobileopen{ display:none}
+.showipad{ display:none}
+.smallfonttitle{ font-weight:400; font-size:25px}
+/*=====================================END SELLING PAGE HERE====================================*/
+/*=====================================START PROFILE PAGE HERE====================================*/
+.profilesettingsection{ width: 100%; height: auto; overflow: hidden;; padding: 40px 0px; background:#f2f0f0}
+
+.profilesettingsectionleft, .profilesettingsectionright{ width: 25%;float:left;padding:20px 0px}
+.profilesettingsectionright{ width: 75%; padding:20px 0px}
+.profilelistsetting{ position: relative; height: auto; padding: 0px 12px}
+.profilelistsetting ul{ margin: 0px; padding: 0px}
+.profilelistsetting ul li{ float: left; list-style: none; width:100%; color: #d1cdcd; padding:10px 0px; display:block; border-bottom: #d1cdcd 1px solid }
+.profilelistsetting ul li a{color: #d1cdcd; line-height: 23px}
+.profilelistsetting ul li.activesetting a {
+    color: #104f8e;
+}
+
+.profilelistsetting ul li.activesetting {
+    border-bottom: #104f8e 1px solid;
+}
+
+.profiledatafatch, .bottomprofilform{margin: 20px 20px 40px 20px;background: #d8d8d8;border-radius: 50px;border:#042c47 1px solid;height: auto;overflow: hidden;padding: 10px 0px;}
+
+.bottomprofilform{ border-radius: 0px; border:0px; background:none}
+.cneterprofiletop {
+    width: 70%;
+    margin: auto;
+}
+
+.profiledatafatch_left, .profiledatafatch_right {
+    width: 50%;
+    padding: 10px 0px;
+    font-weight: 600;
+    color: #104f8e;
+    float: left;
+}
+
+.profiledatafatch_right {
+    font-weight: 400;
+}
+
+.profileform input[type="text"], .profileform textarea {
+    width: 100%;
+    border: 0px;
+    border-bottom: #d6d3d3 1px solid;
+    padding: 8px 10px;
+    margin: 10px 0px;
+    display: block;
+    clear: both;
+    position: relative;
+    background: transparent; font-family: 'Poppins', sans-serif !important
+}
+.profileform .styled-select{border-bottom: #d6d3d3 1px solid;padding: 4px 8px;margin:0px 0px;position: relative;}
+.profileform .styled-select span.downarrow{ top:18px}
+.profileform input[type="text"]::placeholder, .profileform textarea::placeholder{ color:#042c47; opacity: 0.4;}
+.profileform input[type="text"]:focus, .profileform textarea:focus{ outline: 0px}
+.profileform span.textintput {
+    top: 2px;
+    font-size: 12px;
+    right: 0px;
+    color: #042c47;
+}
+.profileform textarea.additionalinfo {
+    height: 150px;
+}
+label#bb {
+    width: 48%;
+    border: #042c47 1px solid;
+    color: #042c47;
+    padding: 4px 0px;
+    border-radius: 30px;
+    margin: 10px 0px;
+    float: left;
+    text-align: center; cursor: pointer; transition: all .2s ease-in-out .2s
+}
+label#bb:hover{ background: #042c47; color: #fff;}
+.filneame {
+    float: left;
+    margin: 10px 0px;
+    font-size: 14px;
+    text-align: center;
+    width: 48%;
+    padding: 7px 0px;
+    font-weight: 600;
+}
+
+
+input[type="file"] {
+    display: none;
+}
+.submitdataprofile {
+    margin: 30px auto;
+    display: block;
+    padding: 12px 0px;
+    width: 180px;
+    background: transparent;
+    border: #042c47 1px solid;
+    border-radius: 40px;
+    transition: all .2s ease-in;
+    cursor: pointer; font-weight: 600; font-size: 18px
+}
+
+.submitdataprofile:hover {
+    background: #042c47;
+    color: #fff;
+}
+.bottomprofilform h3 {
+    font-size: 20px;
+    color: #042c47; margin:10px 0px
+}
+
+.bottomprofilform h4 {
+    color: #042c47;
+    font-size: 13px;margin:10px 0px; font-weight: 500
+}
+.qrcode {
+    display: block;
+    margin: 40px auto;
+    height: 220px;
+    width: 220px;
+    line-height: 220px;
+    text-align: center;
+    border: solid 1px #979797;
+    background: #d8d8d8;
+}
+input.taken {
+    width: 280px;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    clear: both;
+    background: transparent;
+    border: 0px;
+    border-bottom: #042c47 1px solid;
+}
+.profiledatafatch_right a {
+    color: #042c47;
+    font-size: 14px;
+    font-weight: 600;
+}
+.sellingleft.centerdviphone {
+    float: none;
+    margin: auto;
+}
+.countryselect {
+    width: 25%;
+    float: left;
+}
+.yourphonenumber {
+    width: 75%;
+    float: left;
+}
+
+.yourphonenumber input[type="text"] {
+    padding: 6px 10px;
+}
+
+span.flagicon {
+    background: url(../img/india.svg);
+    height: 22px;
+    width: 20px;
+    position: absolute;
+    top: 10px;
+    left: auto;
+    right: 5px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 0;
+    background-size: cover;
+}
+
+.profiledatafatch h5{ padding: 10px 0px; color: #104f8e}
+span.smallfontpwd {
+    font-size: 11px;
+    text-align: center;
+    display: block;
+    color: #042c47;
+    opacity: 0.7;
+    margin: 8px 0px;
+}
+/*=====================================END PROFILE PAGE HERE====================================*/
+
+@media only screen and (max-width: 1440px) {
+.maincontainer, .maincontainer1, nav{ width:1280px !important}
+}
+@media only screen and (max-width: 1366px) {
+nav{ width:100% !important}
+.maincontainer, .maincontainer1{ width:90% !important}
+.bluebox, .blueboxbuybitcoin{ width:85% !important}
+}
+@media only screen and (max-width: 1280px) {
+.maincontainer, .maincontainer1{ width:90% !important}
+.bluebox, .blueboxbuybitcoin{ width:90% !important; margin-top:-170px !important}
+.blueboxbuybitcoin{ margin-top:0px !important}
+button.bluebtn{ font-size: 8px !important; width:100% !important}
+.table, .row{ font-size: 13px !important}
+}
+@media only screen and (max-width: 1120px) {
+.lcs_switch{width:50px !important}
+.lcs_switch.lcs_on .lcs_cursor{ left: 38px !important}
+.lcs_cursor{ height:12px !important; width:12px !important; top:8px !important}
+.lcs_switch.lcs_on .lcs_label_on{left:2px !important}
+.lcs_switch.lcs_off .lcs_label_off{ right:2px !important}
+#cssmenu > ul > li > a{ padding:27px 35px !important}
+.modal-box{ top: 15% !important}
+.rordatabuybitcoin button.bluebtn {width: 100% !important;font-size: 13px !important;}
+button.bluebtn{ font-size: 8px !important; width:100% !important}
+.table, .row{ font-size: 11px !important}
+.profiledatafatch, .bottomprofilform{ margin:20px 0px !important}
+label#bb{ font-size: 12px !important}
+.filneame{ font-size: 9px !important}
+}
+@media only screen and (max-width: 980px) {
+#cssmenu > ul > li > a{ padding:27px 17px !important; font-size:15px !important}
+.modal-box{ width: 85% !important}	
+.modal-box{ top: 15% !important}
+.dataid, .smallfont{ font-size: 8px !important}
+button.bluebtn{ font-size: 8px !important; width:100% !important}
+.table, .row{ font-size: 11px !important}
+
+}
+@media only screen and (max-width: 800px) {
+.profiledatafatch{border-radius: 10px !important}
+.profiledatafatch_left, .profiledatafatch_right{ font-size: 15px !important; text-align: center !important}
+.cneterprofiletop{ width:98% !important}
+label#bb{ font-size: 15px !important}
+.profilesettingsectionright{width:60% !important}
+.profilesettingsectionleft{ width:40% !important}
+.filneame{ font-size: 15px !important}
+.profileform .sellingleft, .profileform .sellingright{width:100% !important}
+.profileform .centeraligndivsellingbit{width:100% !important}
+.profiledatafatch, .bottomprofilform{margin:20px auto !important; width: 90% !important}
+.offerfirst.sellingbittable .dashboardrow:nth-child(2), .offerfirst.sellingbittable .dashboardrow:nth-child(3), .offerfirst.sellingbittable .dashboardrow:nth-child(4), .offerfirst.sellingbittable .dashboardrow:nth-child(5),  .offerfirst.sellingbittable .dashboardrow:nth-child(6) {width:20% !important}
+.showipad .lcs_switch{width:135px !important; margin:-5px 0px !important}
+.thirdpart{ width:50% !important}
+.dashboardrow.hiddenipad {display: none;}
+.showipad{ display:block !important}
+.bluebox, .blueboxbuybitcoin{ border-radius:20px !important}
+.whybitright{ width:100% !important}
+.showmobilebitcoin{ display:block !important}
+.whybitleft{ display:none !important}
+.blueboxbuybitcoin{ margin-top:0px !important}
+.graybg h3{ font-size:20px !important}
+.bluebox h3, .blueboxbuybitcoin h3 {color: #fff; font-size:17px !important; font-weight:400;}
+.tabledata{ padding:40px 0px !important}
+.checkcontainer p{ font-size:11px !important}
+.half_one{ margin:10px 1% !important}
+.table, .row{font-size: 11px !important;}
+.charbar{ width:48% !important}
+.maincontainer1 h2{ font-size:20px !important}
+.bluebox ul li img{ margin:10px auto !important}
+.dashboradleft{ width:70% !important; float: none !important; margin: auto !important}
+.dashboradright{width:100% !important}
+.maincontainer{width:100% !important}
+/*=========================================LOGIN START HERE===========================================*/
+.toplogo{ display:block !important}
+.modal-box {width:85% !important;}
+.helf_right, .helf_left{ width:98% !important}
+.helf_left{ height:auto !important}
+.helf_left h2{ margin-bottom:20px !important}
+.helf_left img{ width:60px !important}
+.modal-box .modal-body{ padding:0px 50px !important}
+.formlogin2{ padding:20px 85px 40px 85px !important}
+.bottomlogo{ display:none !important}
+.modal-box{ top: 15% !important}
+/*=========================================LOGIN END HERE===========================================*/
+.rordatabuybitcoin button.bluebtn {width: 100% !important;font-size:8px !important;}
+.statusonline{ top: 5px !important; height: 6px !important; width:6px !important}
+}
+
+
+
+
+@media screen and (max-width:640px){
+.sellingbitmobileopen .mobileright .rordatabuybitcoin button.bluebtn.editbtn, .sellingbitmobileopen .mobileright .rordatabuybitcoin button.bluebtn.deletebtn {
+    width: 60px !important;
+    padding: 5px !important;
+}
+.filneame{ font-size: 12px !important}
+.profilesettingsectionright{width:100% !important}
+.profilesettingsectionleft{ width:100% !important}
+#cssmenu ul li.active::after{content: ""; height: 0px !important;}
+.sellingleft, .sellingright{width:100% !important}
+.formseprator span.textintput{display:none !important}
+.sellingbitmobileopen .mobileleftheading ul li:nth-child(1){display:none !important}
+.sellingbitmobileopen .rordatabuybitcoin:nth-child(1){display:none !important}
+.mobileright .rordatabuybitcoin button.bluebtn{ margin:3px 0px !important}
+.sellingbittable{ display:none !important}
+.sellingbitmobileopen{ display:block !important}
+.mobilereact {padding: 0px 0px !important;}
+.thirdpart{ width:100% !important;}
+.step{min-height:220px }
+.half_two{ width:100% !important}
+.stepbtn{ width:180px !important}
+#cssmenu{display: table !important;padding:10px 0px !important;}
+#cssmenu > ul > li > a{ padding:15px 12px !important}
+#cssmenu ul ul{ background: #042c47; padding: 0px !important; border: 0px !important; border-radius:0px !important}
+.tabledata, .centeralign{ display:block !important}
+.half_two.one {width: 100% !important;}
+.half_two.two  { display:none !important}
+.half_two.teen{width: 100% !important;margin: 20px 0px !important; display:block !important}
+.bluebox ul li{ width:98% !important; margin-bottom:10px !important; display:block; clear:both; position:relatives}
+.blueboxbuybitcoin{ margin-top:0px !important}
+.blueboxbuybitcoin ul{display: block !important;height: auto;overflow: hidden;}
+.blueboxbuybitcoin ul li{width: 48% !important;float: left;display: block !important;text-align: center;height: 110px;}
+.half_one{ width:98% !important; min-height:30px !important}
+.innerradio{ min-height:30px !important}
+.charbar{ width:98% !important}
+button.bluebtn{width:55px !important; font-size:8px !important; margin:0px !important}
+.table, .row{ line-height:23px !important; font-size:8px !important}
+.logo{position:absolute;top:0;left: 0;width: 20%;height:46px;text-align:center;padding:10px 0 0 0;float:none;}
+.logo2{display:none}
+nav{width:100%;}
+#cssmenu{width:100%}
+#cssmenu ul{width:100%;display:none; top: 20px}
+#cssmenu ul li{width:100%;border-top:1px solid #104f8e}
+#cssmenu ul li:hover{background: #042c47;}
+#cssmenu ul ul{ top:auto !important}
+#cssmenu ul ul li,#cssmenu li:hover > ul > li{height:auto}
+#cssmenu ul li a,#cssmenu ul ul li a{width:100%;border-bottom:0}
+#cssmenu > ul > li{float:none}
+#cssmenu ul ul li a{padding-left:25px}
+#cssmenu ul ul li{background:#042c47!important;}
+#cssmenu ul ul li:hover{background:#042c47!important}
+#cssmenu ul ul li a{color:#fff !important; font-weight: 400 !important}
+#cssmenu ul ul ul li a{padding-left:35px}
+#cssmenu ul ul li a{color:#ddd;background:none}
+#cssmenu ul ul li:hover > a,#cssmenu ul ul li.active > a{color:#fff}
+#cssmenu ul ul,#cssmenu ul ul ul{position:relative;left:0;width:100%;margin:0;text-align:left}
+#cssmenu > ul > li.has-sub > a:after,#cssmenu > ul > li.has-sub > a:before,#cssmenu ul ul > li.has-sub > a:after,#cssmenu ul ul > li.has-sub > a:before{display:none}
+#cssmenu #head-mobile{display:block;padding:23px;color:#ddd;font-size:12px;font-weight:700}
+.button{width: 35px;height: 30px;position:absolute;right: 10px;top: 10px;cursor:pointer;z-index: 12399994;border: #e7b022 1px solid;border-radius: 4px;}
+.button:after{position:absolute;top: 13px;right: 6px;display:block;height:4px;width:20px;border-top: 2px solid #e7b022;border-bottom: 2px solid #e7b022;content:'';}
+.button:before{-webkit-transition:all .3s ease;-ms-transition:all .3s ease;transition:all .3s ease;position:absolute;top: 6px;right: 6px;display:block;height:2px;width:20px;background: #e7b022;content:'';}
+.button.menu-opened:after{-webkit-transition:all .3s ease;-ms-transition:all .3s ease;transition:all .3s ease;top: 13px;border:0;height:2px;width:19px;background: #e7b022;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
+.button.menu-opened:before{top: 13px;background: #e7b022;width:19px;-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg);}
+
+#cssmenu .submenu-button{position:absolute;z-index:99;right:0;top:0;display:block;border-left: 1px solid #104f8e;height:46px;width:46px;cursor:pointer;}
+#cssmenu .submenu-button.submenu-opened{background: #104f8e;}
+#cssmenu ul ul .submenu-button{height:34px;width:34px}
+#cssmenu .submenu-button:after{position:absolute;top: 19px;right: 17px;width:8px;height:2px;display:block;color: #ffba1a;content: "\f0d7";font-family: FontAwesome;}
+#cssmenu ul ul .submenu-button:after{top:15px;right:13px}
+#cssmenu .submenu-button.submenu-opened:after{background: transparent;}
+#cssmenu .submenu-button:before{position:absolute;top:19px;right:22px;display:block;width:2px;height:8px;color: #ffba1a;content: "\f0d7";font-family: FontAwesome;}
+#cssmenu ul ul .submenu-button:before{top:12px;right:16px}
+#cssmenu .submenu-button.submenu-opened:before{display:none}
+#cssmenu ul ul ul li.active a{border-left:none}
+#cssmenu > ul > li.has-sub > ul > li.active > a,#cssmenu > ul ul > li.has-sub > ul > li.active > a{border-top:none}
+
+/*=========================================LOGIN START HERE===========================================*/
+.modal-box{ width:98% !important}	
+.helf_right, .helf_left{ margin:0px !important; width:100% !important}
+.modal-box .modal-body{ padding:0px 10px !important}
+.formlogin2{ padding:10px 10px 50px 10px  !important}
+.helf_left h2{ margin-bottom:10px !important}
+.helf_left p{ margin:10px 0px !important}
+a.close{ font-size:32px !important; top: -10px !important; right:20px !important}
+.modal-box header, .modal-box .modal-header{ padding:3px 0px !important}
+.helf_left img{ margin:5px auto !important}
+.modal-box{ top: 15% !important}
+/*=========================================LOGIN END HERE===========================================*/
+.buybitleft{ width: 100% !important}
+.buybittable h1{ text-align: center !important}
+.rightsideselect{ width:100% !important; margin:auto !important}
+.rightsideselect .buybitleft {width: 40% !important;}
+.hiddenmobile {display:none !important;}
+.blueboxbuybitcoin ul li img{ position: absolute !important; top:35% !important; left: 0 !important; right:0 !important; margin: auto !important}
+.blueboxbuybitcoin .styled-select{ width:220px !important}
+.openinmobiledevice{ display: block !important}
+/*=========================================DASHBOARD START HERE===========================================*/
+.dashboradleft, .inntabledashboard, .buytradeslist{width:100% !important}
+.tabs ul li a, .tabsnew ul li a{ text-align:center}
+.whitebackgroundmobileshow{ margin:10px 0px; padding: 10px 0px; height: auto; background: #fff; display: block !important; clear: both;}
+.tabs ul li a, .tabsnew ul li a{ border: 0px }
+.activetabs{ border-top:0px !important; border-radius: 0px !important; border-right:0px !important; border-bottom: #e7b022 2px solid !important}
+.tabs ul li a, .tabsnew ul li a{ font-size: 15px !important}
+.mobileright .rordatabuybitcoin button.bluebtn.editbtn, .mobileright .rordatabuybitcoin button.bluebtn.deletebtn {width: 90px !important;padding: 8px 0px !important;}
+.lcs_switch.lcs_off .lcs_cursor{ left:8px !important}
+.lcs_switch{width:73px !important}
+.lcs_switch.lcs_on .lcs_cursor{ left:50px !important}
+i.fa.fa-caret-down{ display: none !important;}
+/*=========================================DASHBOARD END HERE===========================================*/
+form.login .sellingleft .styled-select {
+    margin: 15px 0px;
+    width: 100% !important;
+}
+.profiledatafatch_left.profileemail, .profiledatafatch_right.newrightemail {
+    width: 100% !important;
+    text-align: left !important;
+    padding: 5px  12px !important;
+}
+
+}
